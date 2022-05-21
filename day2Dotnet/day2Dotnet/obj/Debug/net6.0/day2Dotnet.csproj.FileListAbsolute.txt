@@ -1,0 +1,15 @@
+D:\dotnet\day2Dotnet\day2Dotnet\bin\Debug\net6.0\day2Dotnet.exe
+D:\dotnet\day2Dotnet\day2Dotnet\bin\Debug\net6.0\day2Dotnet.deps.json
+D:\dotnet\day2Dotnet\day2Dotnet\bin\Debug\net6.0\day2Dotnet.runtimeconfig.json
+D:\dotnet\day2Dotnet\day2Dotnet\bin\Debug\net6.0\day2Dotnet.dll
+D:\dotnet\day2Dotnet\day2Dotnet\bin\Debug\net6.0\day2Dotnet.pdb
+D:\dotnet\day2Dotnet\day2Dotnet\obj\Debug\net6.0\day2Dotnet.csproj.AssemblyReference.cache
+D:\dotnet\day2Dotnet\day2Dotnet\obj\Debug\net6.0\day2Dotnet.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\day2Dotnet\day2Dotnet\obj\Debug\net6.0\day2Dotnet.AssemblyInfoInputs.cache
+D:\dotnet\day2Dotnet\day2Dotnet\obj\Debug\net6.0\day2Dotnet.AssemblyInfo.cs
+D:\dotnet\day2Dotnet\day2Dotnet\obj\Debug\net6.0\day2Dotnet.csproj.CoreCompileInputs.cache
+D:\dotnet\day2Dotnet\day2Dotnet\obj\Debug\net6.0\day2Dotnet.dll
+D:\dotnet\day2Dotnet\day2Dotnet\obj\Debug\net6.0\refint\day2Dotnet.dll
+D:\dotnet\day2Dotnet\day2Dotnet\obj\Debug\net6.0\day2Dotnet.pdb
+D:\dotnet\day2Dotnet\day2Dotnet\obj\Debug\net6.0\day2Dotnet.genruntimeconfig.cache
+D:\dotnet\day2Dotnet\day2Dotnet\obj\Debug\net6.0\ref\day2Dotnet.dll

@@ -1,0 +1,15 @@
+D:\dotnet\Baseclass\Baseclass\bin\Debug\net6.0\Baseclass.exe
+D:\dotnet\Baseclass\Baseclass\bin\Debug\net6.0\Baseclass.deps.json
+D:\dotnet\Baseclass\Baseclass\bin\Debug\net6.0\Baseclass.runtimeconfig.json
+D:\dotnet\Baseclass\Baseclass\bin\Debug\net6.0\Baseclass.dll
+D:\dotnet\Baseclass\Baseclass\bin\Debug\net6.0\Baseclass.pdb
+D:\dotnet\Baseclass\Baseclass\obj\Debug\net6.0\Baseclass.csproj.AssemblyReference.cache
+D:\dotnet\Baseclass\Baseclass\obj\Debug\net6.0\Baseclass.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\Baseclass\Baseclass\obj\Debug\net6.0\Baseclass.AssemblyInfoInputs.cache
+D:\dotnet\Baseclass\Baseclass\obj\Debug\net6.0\Baseclass.AssemblyInfo.cs
+D:\dotnet\Baseclass\Baseclass\obj\Debug\net6.0\Baseclass.csproj.CoreCompileInputs.cache
+D:\dotnet\Baseclass\Baseclass\obj\Debug\net6.0\Baseclass.dll
+D:\dotnet\Baseclass\Baseclass\obj\Debug\net6.0\refint\Baseclass.dll
+D:\dotnet\Baseclass\Baseclass\obj\Debug\net6.0\Baseclass.pdb
+D:\dotnet\Baseclass\Baseclass\obj\Debug\net6.0\Baseclass.genruntimeconfig.cache
+D:\dotnet\Baseclass\Baseclass\obj\Debug\net6.0\ref\Baseclass.dll

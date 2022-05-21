@@ -1,0 +1,445 @@
+sir contact ->9842131329(whatsApp)
+
+#inheritence->public,
+ protected->access in within class and derived class
+base -> used in public and protectd only for multilevel
+-static class inherit hudaina
+
+
+#Sealed
+-inherit garna mildaina
+-   public sealed class Shape
+
+#static
+
+namespace staticclass
+{
+    public class A
+    {
+        public void PrintHello()
+        {
+            Console.WriteLine("hello");
+        }
+    }
+    public static class B
+    {
+        public static void PrintHello()
+        {
+            Console.WriteLine("hello");
+        }
+    }
+}
+
+
+
+ A a = new A();
+    a.PrintHello();
+
+    B.printHello();
+
+class normal - static and non-static both
+class static - all member needed to be static
+
+
+#static constructor
+
+-has no parameter 
+-has no return type
+-no access modifier
+
+namespace staticclass
+{
+    public static class Time
+    {
+        private static DateTime _Current;
+        static Time()
+        {
+            _Current = DateTime.Now;
+        }
+    }
+}
+
+*types of constructor
+
+-Default constructor->automatically call eg. public A(){}
+-parametrized constructor->default constructor lai ovarride garepaxi -add prameter eg. pubic A(A a){}
+-private constructor->complex programming 
+-copy constructor->using this keyword public A(A a){this = a}
+-static constructor->
+
+
+#keywords
+-have own special meaning 
+
+*two types of keyword 
+-normal keyword->
+-contextual keyword ->from where etc. 
+
+
+*looping
+
+-while 
+-do while
+-for -> for(int i=0;i<arr.count;i++)
+-foreach -> foreach(int a in arr){console.writeline(a)}
+
+*abstract class->
+-It cannot be instantiated.
+-inherit garne child class ma lane aini teslai instantiated garne
+
+
+*Partial Class.
+-feature of c# ->single class can be written in multiple filles
+-name space eautai hunu paryo partial class huna ko lagi
+
+#virtual class
+-provide default implementation
+-if not override that method 
+
+pubic class A{
+public virtua void Methodd()
+{
+}
+}
+
+*Private constructor
+
+eg.
+pubic class user{
+user()
+{
+}}
+
+User u = new User()//private ma yo garna mildaina
+
+singleton pattern-kunai pani class ko single instance vanda badi banauna paidaina
+
+public class User;
+{
+private class User _Instance;
+User(){
+_INstance = new User();
+}
+public User GetInstance(){
+if (_Instance == Nul)
+_instance = new User();
+
+}
+
+
+*indexer
+-
+public class MyCollection
+{
+private String[] _Collection = new String[10];
+
+public String this[int idx] //indexer property 
+{
+ get{
+	if(idx>9){
+	console.writeline('invalid index');
+	return "";
+	}
+	return _Collection[idx];
+}
+set{
+_Collection[idx]= value;
+}
+}
+
+*Method Handling
+-completely redefine garna milxa
+-parameter type ra no. of parameter eautai xa vane new keyword use garne
+
+
+eg.
+public class A
+{
+	public void Display(int a, int b)->(int a)
+	{
+		console.wirtefLIne(a+b)
+	}
+}
+pubic class B:A
+{
+	public (option-new keyworkd) void Display(int a, int b)
+	{
+		console.writeLine(a-b);
+		base.Display();(base->le parent class ko attirbute and method lai call gareko xa)
+	}
+}
+
+
+*Generics 
+
+-datatype lai parametarized
+->dynamic banauna pauxa(method,class)
+->constrants(rule)-> type k hune vanne define garna milxa
+
+eg.
+
+public class Student{
+	public T Id {get;set;}
+	}
+
+Student<int> S = new Sutdent<int>();
+Student<string> S = new Student<string>();
+
+
+namespace Generics
+{
+    public class Student<T> // public class Student<T> where T: class,T2:struct ...etc (constrants)
+    {
+        public T[] marks = new T[10];
+        
+        //public void Dispaly<T>(T a)
+    }
+}
+-S.Display<int>(1);
+-S.Display<string>('abc');
+
+*immutability
+-change garna na milne
+
+-garbage colector-> destroy garne kam
+
+*distructor (in c#->finalizer)
+-destroy huda distructor call hunxa
+-allocate vako memory space deallocate garne
+-garbage collector is using as distructor
+-return type hudaina
+-call garna mildaina
+-overload hudaina
+
+*Exception Handling
+-try,catch,throw,finally
+-try{
+
+}
+//multiple catch ni use garna milxa
+catch(exception){
+}
+finally{//exception aayo vane ni aayana vane ni execute garxa
+}
+
+
+-try paxi catch or finally hunai paro
+
+
+*Delegates
+->are pointer to function. it holdes reference to function.method ko reference hold garxa
+->	public deligate int Mydel(int a ,int b);
+		public int Add(int a, int b){
+			return a+b;
+			}
+		Mydel d = new Mydel(Add);
+		int result = d(1,3);
+->multicast, unicast ,generic
+
+->inbuild(generic) delegates->func(return hunai paro), predicate(return type boolean),action
+
+namespace Delegates
+{
+    public class Program
+    { 
+        public delegate int Mydel(int a, int b);
+        public static int Add(int a, int b)
+        {
+            return a + b;
+        }
+
+       public static void Main(string[] args)
+        {
+
+            Mydel d = new Mydel(Add);
+            int result = d(3, 4);
+            Console.WriteLine(result);
+        }
+        
+}
+}
+
+
+
+namespace Delegates
+{
+    public class Program
+    { 
+        public delegate void Mydel(int a, int b);
+        public static void Add(int a, int b)
+        {
+            Console.WriteLine (a + b);
+        }
+        public static void Sub(int a, int b)
+        {
+            Console.WriteLine(a - b);
+        }
+        public static void Main(string[] args)
+        {
+
+            Mydel d = new Mydel(Add);
+            d += Sub;
+            d(3, 2);
+
+        }
+        
+}
+}
+
+func
+namespace Delegates
+{
+    public class Program
+    { 
+        public static void Main(string[] args)
+        {
+            // Func<int, int, int> Operation = (x, y) => x + y; single line
+            Func<int, int, int> Operation = (x, y) =>
+            {
+                return x + y;
+            };
+            Operation += (x, y) =>
+            {
+                return x - y;
+            };
+            
+            
+        }       
+    }
+}
+action
+namespace Delegates
+{
+    public class Program
+    { 
+        public static void Main(string[] args)
+        {
+            // Func<int, int, int> Operation = (x, y) => x + y; single line
+            Action<int, int> Operation = (x, y) =>
+            {
+                Console.WriteLine (x + y);
+            };
+            Operation += (x, y) =>
+            {
+               Console.WriteLine (x - y);
+            };
+            
+            
+        }       
+    }
+}
+
+*delegate event
+-define a delegate
+-define an event based on delegate
+raise the event
+
+*collections
+->make array like data structure
+-List(generic)-> List<string> lst = new List<string>(); lst.Add("abc");//add on list //lst[0]//list are indexable
+-Dictionary(generic)->key value pair->(key,value)->(key can't be repeatable)
+- Dictionary<int,string> d = new Dictionary<int,string>();
+-Stack(generic)
+-Queue(generic) ->Queue <int> Q = new Queue<int>();
+
+-non-generic
+-ArrayList
+-HashTable
+-SortedList
+-Stack
+-Queue
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Dictionary
+{
+    internal class Program
+    {
+        public static void Main(string[] args)
+        {
+            Dictionary<int, string> dic = new Dictionary<int, string>();
+            dic.Add(1, "abc");
+            dic.Add(2, "def");
+            Console.WriteLine(dic[2]);
+        }
+    }
+}
+
+*asynchronous
+->async,await
+
+*Polymorphism
+-overriding
+-overloading
+i)method Overloading
+ii)operatior overloading
+
+
+*Operatior Overloading
+-kunai particular class ko operator ko behavior define garne tarika
+
+public class Rectangle {
+	public decimal length{get;set;}
+	public decimal Breadth{get;set;}
+}
+
+public static void Main(string[] args){
+
+ Rectangle R1 = new Rectangle {length = 10, Breadth = 5};
+ Retangle R2 = new Rectangle{length = 20, Breadth= 10};
+ Rechangle R3 = R1 + R2;//error aauxa yeha + le garxa vanne kura define vako xaina
+
+}
+
+*Access Modifiers
+
+public-jata bata pani
+private -class bata matra(with in the class)
+protected-aafu ra inherited
+internal-sem assembley vitra matra initialization garxa
+-protecthed internal-next assembly samma pugna sakxa aarko assembly ko inherite vako xa vane matra
+-private protected-only within its declearing assembly,next assembly ma jana didaina-eautai assembly ma matra use garna milxa
+
+
+
+*Attributes
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Attributes
+{
+    public class AuthorAttributes: Attribute
+    {
+        private string _name;
+        public AuthorAttributes(string name) 
+        {
+            _name = name;
+        }
+        public String Name => _name;
+    }
+}
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Attributes
+{
+    [AuthorAttributes("Saphal")]
+    public class Order
+    {
+    }
+}
+
+*file operation (ko lab aafai garne)

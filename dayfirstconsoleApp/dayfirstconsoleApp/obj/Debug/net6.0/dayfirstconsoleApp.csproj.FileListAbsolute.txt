@@ -1,0 +1,15 @@
+D:\dotnet\dayfirstconsoleApp\dayfirstconsoleApp\bin\Debug\net6.0\dayfirstconsoleApp.exe
+D:\dotnet\dayfirstconsoleApp\dayfirstconsoleApp\bin\Debug\net6.0\dayfirstconsoleApp.deps.json
+D:\dotnet\dayfirstconsoleApp\dayfirstconsoleApp\bin\Debug\net6.0\dayfirstconsoleApp.runtimeconfig.json
+D:\dotnet\dayfirstconsoleApp\dayfirstconsoleApp\bin\Debug\net6.0\dayfirstconsoleApp.dll
+D:\dotnet\dayfirstconsoleApp\dayfirstconsoleApp\bin\Debug\net6.0\dayfirstconsoleApp.pdb
+D:\dotnet\dayfirstconsoleApp\dayfirstconsoleApp\obj\Debug\net6.0\dayfirstconsoleApp.csproj.AssemblyReference.cache
+D:\dotnet\dayfirstconsoleApp\dayfirstconsoleApp\obj\Debug\net6.0\dayfirstconsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\dayfirstconsoleApp\dayfirstconsoleApp\obj\Debug\net6.0\dayfirstconsoleApp.AssemblyInfoInputs.cache
+D:\dotnet\dayfirstconsoleApp\dayfirstconsoleApp\obj\Debug\net6.0\dayfirstconsoleApp.AssemblyInfo.cs
+D:\dotnet\dayfirstconsoleApp\dayfirstconsoleApp\obj\Debug\net6.0\dayfirstconsoleApp.csproj.CoreCompileInputs.cache
+D:\dotnet\dayfirstconsoleApp\dayfirstconsoleApp\obj\Debug\net6.0\dayfirstconsoleApp.dll
+D:\dotnet\dayfirstconsoleApp\dayfirstconsoleApp\obj\Debug\net6.0\refint\dayfirstconsoleApp.dll
+D:\dotnet\dayfirstconsoleApp\dayfirstconsoleApp\obj\Debug\net6.0\dayfirstconsoleApp.pdb
+D:\dotnet\dayfirstconsoleApp\dayfirstconsoleApp\obj\Debug\net6.0\dayfirstconsoleApp.genruntimeconfig.cache
+D:\dotnet\dayfirstconsoleApp\dayfirstconsoleApp\obj\Debug\net6.0\ref\dayfirstconsoleApp.dll

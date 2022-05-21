@@ -1,0 +1,15 @@
+D:\dotnet\Immutable\Immutable\obj\Debug\net6.0\Immutable.csproj.AssemblyReference.cache
+D:\dotnet\Immutable\Immutable\obj\Debug\net6.0\Immutable.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\Immutable\Immutable\obj\Debug\net6.0\Immutable.AssemblyInfoInputs.cache
+D:\dotnet\Immutable\Immutable\obj\Debug\net6.0\Immutable.AssemblyInfo.cs
+D:\dotnet\Immutable\Immutable\obj\Debug\net6.0\Immutable.csproj.CoreCompileInputs.cache
+D:\dotnet\Immutable\Immutable\bin\Debug\net6.0\Immutable.exe
+D:\dotnet\Immutable\Immutable\bin\Debug\net6.0\Immutable.deps.json
+D:\dotnet\Immutable\Immutable\bin\Debug\net6.0\Immutable.runtimeconfig.json
+D:\dotnet\Immutable\Immutable\bin\Debug\net6.0\Immutable.dll
+D:\dotnet\Immutable\Immutable\bin\Debug\net6.0\Immutable.pdb
+D:\dotnet\Immutable\Immutable\obj\Debug\net6.0\Immutable.dll
+D:\dotnet\Immutable\Immutable\obj\Debug\net6.0\refint\Immutable.dll
+D:\dotnet\Immutable\Immutable\obj\Debug\net6.0\Immutable.pdb
+D:\dotnet\Immutable\Immutable\obj\Debug\net6.0\Immutable.genruntimeconfig.cache
+D:\dotnet\Immutable\Immutable\obj\Debug\net6.0\ref\Immutable.dll

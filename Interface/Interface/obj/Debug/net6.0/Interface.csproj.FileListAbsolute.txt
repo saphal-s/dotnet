@@ -1,0 +1,15 @@
+D:\dotnet\Interface\Interface\bin\Debug\net6.0\Interface.exe
+D:\dotnet\Interface\Interface\bin\Debug\net6.0\Interface.deps.json
+D:\dotnet\Interface\Interface\bin\Debug\net6.0\Interface.runtimeconfig.json
+D:\dotnet\Interface\Interface\bin\Debug\net6.0\Interface.dll
+D:\dotnet\Interface\Interface\bin\Debug\net6.0\Interface.pdb
+D:\dotnet\Interface\Interface\obj\Debug\net6.0\Interface.csproj.AssemblyReference.cache
+D:\dotnet\Interface\Interface\obj\Debug\net6.0\Interface.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\Interface\Interface\obj\Debug\net6.0\Interface.AssemblyInfoInputs.cache
+D:\dotnet\Interface\Interface\obj\Debug\net6.0\Interface.AssemblyInfo.cs
+D:\dotnet\Interface\Interface\obj\Debug\net6.0\Interface.csproj.CoreCompileInputs.cache
+D:\dotnet\Interface\Interface\obj\Debug\net6.0\Interface.dll
+D:\dotnet\Interface\Interface\obj\Debug\net6.0\refint\Interface.dll
+D:\dotnet\Interface\Interface\obj\Debug\net6.0\Interface.pdb
+D:\dotnet\Interface\Interface\obj\Debug\net6.0\Interface.genruntimeconfig.cache
+D:\dotnet\Interface\Interface\obj\Debug\net6.0\ref\Interface.dll

@@ -1,0 +1,15 @@
+D:\dotnet\Hybrid\Hybrid\bin\Debug\net6.0\Hybrid.exe
+D:\dotnet\Hybrid\Hybrid\bin\Debug\net6.0\Hybrid.deps.json
+D:\dotnet\Hybrid\Hybrid\bin\Debug\net6.0\Hybrid.runtimeconfig.json
+D:\dotnet\Hybrid\Hybrid\bin\Debug\net6.0\Hybrid.dll
+D:\dotnet\Hybrid\Hybrid\bin\Debug\net6.0\Hybrid.pdb
+D:\dotnet\Hybrid\Hybrid\obj\Debug\net6.0\Hybrid.csproj.AssemblyReference.cache
+D:\dotnet\Hybrid\Hybrid\obj\Debug\net6.0\Hybrid.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\Hybrid\Hybrid\obj\Debug\net6.0\Hybrid.AssemblyInfoInputs.cache
+D:\dotnet\Hybrid\Hybrid\obj\Debug\net6.0\Hybrid.AssemblyInfo.cs
+D:\dotnet\Hybrid\Hybrid\obj\Debug\net6.0\Hybrid.csproj.CoreCompileInputs.cache
+D:\dotnet\Hybrid\Hybrid\obj\Debug\net6.0\Hybrid.dll
+D:\dotnet\Hybrid\Hybrid\obj\Debug\net6.0\refint\Hybrid.dll
+D:\dotnet\Hybrid\Hybrid\obj\Debug\net6.0\Hybrid.pdb
+D:\dotnet\Hybrid\Hybrid\obj\Debug\net6.0\Hybrid.genruntimeconfig.cache
+D:\dotnet\Hybrid\Hybrid\obj\Debug\net6.0\ref\Hybrid.dll
